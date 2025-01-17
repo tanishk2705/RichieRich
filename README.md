@@ -35,6 +35,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-### Best practices followed along side maeking this project
-## Accessibility
+## Best practices followed along side maeking this project
+### Accessibility
 Rapping children inside main, Why? because main tag is used by search engines to locate our content for better SEO
+
+### Routing 
+[To learn about routing in nextjs](https://nextjs.org/docs/app/getting-started/project-structure)
