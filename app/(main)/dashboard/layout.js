@@ -5,13 +5,16 @@ import { BarLoader } from 'react-spinners'
 const DashboardLayout = () => {
   return (
     <div className='px-5'> 
-       <h1 className='text-6xl font-bold gradient-title mb-5'>
+       <div className='flex items-center justify-between mb-5'>
+       <h1 className='text-6xl font-bold tracking-tight gradient-title'>
           Dashboard Page
        </h1>
-
-       <Suspense fallback={<BarLoader/>} >
+       </div>
+       
+       <Suspense fallback={<BarLoader className='mt-4' width={"100%"} color="#9333ea" />}>
           <DashboardPage/>
        </Suspense>
+      
     </div>
   )
 }

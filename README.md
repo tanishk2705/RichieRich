@@ -41,3 +41,6 @@ Rapping children inside main, Why? because main tag is used by search engines to
 
 ### Routing 
 [To learn about routing in nextjs](https://nextjs.org/docs/app/getting-started/project-structure)
+
+### functions
+[revalidatePath allows you to purge cached data on-demand for a specific path](https://nextjs.org/docs/app/api-reference/functions/revalidatePath)
